@@ -1,0 +1,977 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter"
+
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.page-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header .flex {
+    justify-content: start;
+}
+ul.menu li {
+    display: inline;
+    padding: 40px 12px 30px 12px;
+    background-color: #A7B8D3;
+    margin: 0 20px 0px 0px;
+}
+
+ul.menu li a {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    padding: 40px;
+    color: #150101;
+}
+section.header {
+    background-color: #D9D9D9;
+    padding: 0px 0 4px 0;
+}
+
+
+p.logo-text {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.1px;
+    text-align: center;
+}
+a.sign-in {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    background-color: #FFFFFF;
+    padding: 8px 20px;
+    color: #000000;
+}
+body{
+    background-color: #dce7f0;
+}
+.sign-button {
+    text-align: end;
+    margin-top: 11px;
+}
+.text-with-image h1 {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.bg-text h2{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: #000000;
+    background-color: #13BFC5;
+    padding: 10px;
+}
+.all-content .flex {
+    justify-content: start;
+    align-items: start;
+    gap: 13%;
+}
+.all-content {
+    padding-top: 4%;
+    margin-left: 6%;
+}
+.bg-text {
+    width: 20%;
+}
+.cols h3 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+   color: #000000;
+}
+.cols {
+    background-color: #13BFC5;
+    padding: 18px 11px;
+    margin-right: 5%;
+}
+section.rows {
+    margin-left: 6%;
+    padding-top: 4%;
+    padding-right: 9%;
+}
+.main-rows .flex{
+        align-items: start;
+    }   
+    .cols3 img {
+        width: 430px;
+        height: 242px;
+    }
+    
+    .main-rows p {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        text-align: center;
+        width: 66%;
+        margin: auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: #000000;
+    }
+    .main-footer .flex {
+        justify-content: space-between;
+        align-items: center;
+    }
+    section.footer {
+        padding: 0 3%;
+    }
+    .footer-links ul li {
+        display: inline;
+        padding: 0 16px;
+    }
+    .copy-texts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons li {
+        display: inline;
+    }
+    section.footer {
+        background-color: #D9D9D9;
+        padding: 16px 0;
+    }
+    .footer-links ul li a {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.05px;
+        color: #000000;
+    }
+    section.footer {
+        padding: 20px 40px;
+    }
+    .footer-links ul li a {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.05px;
+        color: #000000;
+        transition: all 0.5s ease;
+        text-decoration: underline;
+    }
+    .copy-texts ul li {
+        display: inline;
+        padding: 0 22px;
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.05px;
+        color: #000000;
+    }
+    .icons a i {
+        font-size: 36px;
+        color: #000000;
+        transition: all 0.5s ease;
+    }
+    .icons {
+        background-color: #ffffff;
+        padding: 8px;
+        margin-left: 50px;
+    }
+     ul.menu {
+        margin: -10px 0 0 0;
+    } 
+    /* page--2-css */
+    .text-with-image h2 {
+        font-family: "Inter";
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43.57px;
+        text-align: center;
+        color: #000000;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 10px;
+    }
+    .page2 {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    section.first-text {
+        padding: 20px 40px;
+        padding-right: 0;
+    }
+    .text-list ul li {
+        font-family: "Inter";
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38.73px;
+        color: #000000;
+        list-style-type: disc;
+        padding: 5% 0;
+    }
+    .text-list p {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.05px;
+        color: #000000;
+    }
+    .text-list {
+        padding-right: 30px;
+    }
+    section.second-text{
+        padding: 0px 40px;
+        padding-right: 0;
+    }
+    section.second-text p {
+        padding-right: 8%;
+    }
+    .second-main-text ul li {
+        padding-top: 0;
+    }
+    img.chat-img {
+        padding-top: 8%;
+    }
+    .second-main-text {
+        padding-bottom: 4%;
+    }
+    /* page--3--css */
+    .text-with-image.page3 h3 {
+        font-family: "Inter";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.09px;
+        color: #000000;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px;
+    }
+    .page3 {
+        width: 80%;
+        margin: auto;
+    }
+    strong.heading {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.05px;
+        color: #000000;
+    }
+    .text-Treatmentlist ul li {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.05px;
+        color: #000000;
+        list-style-type: disc;
+        padding: 0% 0 5% 0;
+        margin-left: 3%;
+    }
+    section.Treatment {
+        padding-left: 40px;
+        padding-top: 4%;
+    }
+
+    section.Treatment .flex {
+        align-items: flex-start;
+    }
+    .Treatment-image img {
+        padding-bottom: 10%;
+    }
+    li.none {
+        padding-bottom: 0% !important;
+    }
+
+    .text-Treatmentlist {
+        padding-right: 7%;
+    }
+    /* page4-csss */
+   .page4 h4 {
+        font-family: "Inter";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.09px;
+        color: #000000;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        width: 50%;
+        margin: auto;
+    }
+     .page4 h5 {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+     background-color: #ffffff;
+      text-align: center;
+       padding: 10px;
+       margin-top: 3% !important;
+       width: fit-content;
+         margin: 0 auto 0;
+    }
+
+    .page4 {
+    width: 50%;
+    margin: auto;
+    }
+    .all-links h6 {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.05px;
+        color: #000000;
+        background: #13BFC5;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+    }
+    section.links{
+        padding-left: 70px;
+        padding-top: 4%;
+    }
+    .all-links ul {
+        padding-left: 6%;
+    }
+    .all-links ul li a {
+        font-family: "Inter";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.15px;
+        color:#085AFF;
+    }
+    .all-links ul li {
+        background: #47D79E;
+        padding: 8px;
+        margin: 16px 0;
+        width: fit-content;
+    }
+    .all-links {
+        padding-bottom: 3%;
+    }
+    /* page--5--css */
+    .text-with-image.page5 h5 {
+        font-family: "Inter";
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43.57px;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .text-with-image.page5 h6 {
+        font-family: "Inter";
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48.41px;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 2% !important;
+       width: fit-content;
+        margin: 0 auto 0;
+        color: #000000;
+    }
+    .text-with-image.page5 p {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24.2px;
+        text-align: center;
+        color: #000000;
+        padding-top: 1%;
+    }
+    .contact-us h6 {
+        font-family: "Inter";
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.73px;
+        color: #000000;
+        text-align: center;
+    }
+    .contact-us li {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.2px;
+        color: #000000;
+        padding-bottom: 8%;
+    }
+    .contact-us ul li a {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        color: #000000;
+        display: block;
+        padding-left: 12%;
+        padding-top: 8%;
+    
+    }
+    ul.uslinks {
+        background: #13BFC5;
+        padding: 20px;
+        width: 300px;
+    }
+    section.contact-form  .flex {
+        justify-content: space-around;
+    }
+    .main-contact-form {
+        background: #8AB1EF;
+        padding: 24px;
+    }
+    form#contact label {
+        display: block;
+        font-family: "Inter";
+       font-size: 20px;
+      font-weight: 800;
+      line-height: 24.2px;
+      color: #000000;
+
+    }
+
+    form#contact {
+        width: 100%;
+    }
+    
+      .flot {
+        display: flex;
+        gap: 20px;
+      }
+      
+      .flot div {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      
+      input, textarea, button {
+        width: 100%;
+        padding: 20px 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+      }
+      
+      textarea {
+        resize: vertical;
+      }
+      
+      .main-contact-form {
+        background: #8AB1EF;
+        padding: 30px 40px 30px 20px;
+        width: 40%;
+    }
+    .one {
+        padding-right: 6%;
+    }
+    button#contact-submit {
+        background: #2E1DE8;
+        outline: none;
+        border: none;
+        color: white;
+        font-family: "Inter";
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48.41px;
+        width: 50%;
+        margin: auto;
+        display: block;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    label span {
+        color: red;
+    }
+    button#contact-submit:hover {
+        background-color: #085AFF;
+    }
+    .follow-us h6 {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.2px;
+        color: #000000;
+        background: #13BFC5;
+        padding: 10px;
+        text-align: center;
+    }
+    .follow-us p {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        color: #000000;
+        background: #13BFC5;
+        padding: 10px;
+       text-align: center;
+    }
+    .follow-icons {
+        padding-top: 10%;
+    }
+    /* css-end */
+    
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .main-header .flex {
+      flex-direction: column;
+        align-items: flex-start;
+    }
+    ul.menu li a {
+        font-size: 12px;
+        line-height: 14.52px;
+        padding: 6px;
+    }
+
+    ul.menu li {
+        padding: 0px;
+        margin: 0 4px 0px 0px;
+    }
+    p.logo-text {
+        font-size: 10px;
+        line-height: 16.1px;
+        text-align: left;
+    }
+    .logo img {
+        width: 70%;
+    }
+    ul.menu {
+        margin: 10px 0 10px 0;
+    }
+    section.contact-form .flex {
+        flex-direction: column;
+    }
+
+    .text-with-image.page5 h5 {
+        font-size: 24px;
+        line-height: 30.57px;
+    
+    }
+
+    .text-with-image.page5 h6 {
+        font-size: 24px;
+        line-height: 28.41px;
+    }
+    .main-contact-form {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 72%;
+    }
+    .text-with-image.page5 p {
+        font-size: 12px;
+        line-height: 14.2px;
+        padding-top: 4%;
+    }
+    .contact-us h6 {
+        font-family: "Inter";
+        font-size: 18px;
+    }
+    a.sign-in {
+        font-size: 14px;
+        margin-right: 12px;
+    }
+    button#contact-submit {
+        font-size: 16px;
+        line-height: 20.41px;
+        width: 70%;
+    }
+    form#contact label {
+        font-size: 14px;
+        line-height: 24.2px;
+
+    }
+    section.footer {
+        padding: 20px 16px;
+    }
+    .footer-links ul li a {
+        font-size: 16px;
+    }
+
+    .copy-texts ul li {
+     padding:8px 0px; 
+     display: block;
+        font-size: 16px;
+
+    }
+    .main-footer .flex {
+        flex-direction: column;
+        align-items: start;
+    }
+    .copy-texts {
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-links ul li {
+        display: block;
+        padding: 8px 0px;
+    }
+    .icons {
+        margin-left: 0px;
+    }
+    .text-with-image h1 ,.bg-text h2 {
+        font-size: 20px;
+
+    }
+    .text-with-image img {
+        width: 50%;
+    }
+
+    .all-content .flex {
+        flex-direction: column;
+    }
+
+    .main-rows .flex {
+        flex-direction: column;
+    }
+
+    .bg-text {
+        width: 100%;
+    }
+    .bg-image img {
+        width: 352px;
+        padding-top: 5%;
+    }
+    .cols {
+        margin-right: 0%;
+        width: 100%;
+    }
+    section.rows {
+        padding-right: 4%;
+        margin-left: 0%;
+    }
+
+    .cols3 img {
+        width: 100%;
+        height: 242px;
+    }
+
+    .all-content {
+        padding-top: 4%;
+        margin: 0;
+    }
+
+    body.homepage {
+        padding: 0 0%;
+    }
+    .main-text  .flex {
+
+        flex-direction: column;
+    }
+    .second-main-text .flex {
+        
+        flex-direction: column;
+    }
+    .image-drug img {
+        width: 85%;
+        padding-top: 6%;
+    }
+    .text-with-image h2 {
+        font-family: "Inter";
+        font-size: 24px;
+    }
+    .text-list ul li {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26.73px;
+    }
+    section.second-text p {
+        padding-right: 0%;
+    }
+    
+    .text-list p {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.05px;
+        color: #000000;
+    }
+    .page2 {
+        width: 92%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .text-with-image.page3 h3 {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38.09px;
+
+    }
+    .Treatment-image img {
+        width: 80%;
+    }
+    .text-Treatmentlist ul li {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22.05px;
+    }
+
+    strong.heading {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 29.05px;
+        color: #000000;
+    }
+    
+    .Treatment-image img {
+   
+        padding: 3% 0;
+    }    
+    section.links {
+        padding-left: 4%;
+        padding-top: 4%;
+        padding-right: 5%;
+    }
+    .page4 h4  , .page4 h5{
+        font-family: "Inter";
+        font-size: 24px;
+        line-height: 30.09px;
+    
+    }
+    section.main-content {
+        padding: 0 5%;
+    }
+    .main-rows {
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .page4 {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    ul.menu li a {
+        font-size: 20px;
+         padding:0px; 
+    }
+    ul.menu li {
+        padding: 10px;
+    
+    }
+    a.sign-in {
+        font-family: "Inter";
+        font-size: 20px;
+    }
+    .text-with-image.page5 h5 {
+        font-size: 24px;
+    }
+    .text-with-image.page5 h6 {
+        font-size: 24px;
+    }
+    .text-with-image.page5 p {
+        font-size: 18px;
+
+    }
+    .contact-us h6 {
+        font-size: 24px;
+    }
+
+    section.contact-form .flex {
+        flex-direction: column;
+    }
+
+    .main-contact-form {
+        background: #8AB1EF;
+        padding: 30px 40px 30px 20px;
+        width: 85%;
+    }
+    button#contact-submit {
+        font-size: 24px;
+        line-height: 30.41px;
+        width: 40%;
+
+    }
+    .text-with-image h1 {
+        font-family: "Inter";
+        font-size: 28px;
+    }
+
+    .bg-text {
+        width: 46%;
+    }
+    .main-rows .flex {
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-text  .flex {
+      align-items: self-start;
+        flex-direction: column;
+    }
+    .second-main-text .flex {
+        align-items: self-start;
+        flex-direction: column;
+    }
+    .image-drug img {
+        margin: auto;
+        display: table;
+        width: 100%;
+        padding-top: 6%;
+    }
+    .text-with-image h2 {
+        font-family: "Inter";
+        font-size: 28px;
+    }
+    .text-with-image.page3 h3 {
+        font-family: "Inter";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40.09px;
+    }
+    .page3 {
+        width: 60%;
+        margin: auto;
+    }
+    section.links {
+        padding-left: 4%;
+        padding-top: 4%;
+    }
+
+    .all-links ul li {
+        background: #47D79E;
+        padding: 8px;
+        margin: 16px 0;
+        width: 90%;
+    }
+    .page4 h4 {
+        font-family: "Inter";
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .text-with-image.page5 h6 {
+        font-size: 28px;
+    }
+    .text-with-image.page5 h5 {
+        font-size: 24px;
+    }
+    a.sign-in {
+        font-size: 24px;
+    }
+    button#contact-submit {
+        font-size: 24px;
+        width: 62%;
+    }
+    ul.menu li a {        
+        font-size: 18px;
+        padding: 24px;
+
+    }
+    ul.menu li {
+        padding: 12px;
+   
+    }
+
+    .footer-links ul li a {
+        font-size: 18px;
+    }
+    .bg-text {
+        width: 32%;
+    }
+
+    .main-rows .flex {
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-text  .flex {
+        align-items: self-start;
+        flex-direction: column;
+    }
+    .second-main-text .flex {
+        align-items: self-start;
+        flex-direction: column;
+    }
+    .image-drug img {
+        width: 88%;
+        padding-top: 6%;
+    }
+
+    .page3 {
+        width: 60%;
+        margin: auto;
+    }
+
+    .text-with-image.page3 h3 {
+        font-family: "Inter";
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46.09px;
+    }
+    .Treatment-image img {
+        padding-bottom: 0%;
+        padding-top: 6%;
+    }
+    .all-links ul li {
+        background: #47D79E;
+        padding: 8px;
+        margin: 16px 0;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    button#contact-submit {
+        font-size: 24px;
+    }
+    ul.menu li a {
+        font-size: 24px;
+
+    }
+    ul.menu li {
+        padding: 18px;
+
+    }
+    a.sign-in {
+        font-size: 24px;
+
+    }
+}
