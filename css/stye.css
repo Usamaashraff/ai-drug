@@ -360,7 +360,7 @@ section.rows {
         font-family: "Inter";
         font-size: 15px;
         font-weight: 400;
-        line-height: 18.15px;
+        line-height: 1.6;
         color:#085AFF;
         word-wrap: break-word;
         background: #47D79E;
@@ -369,7 +369,6 @@ section.rows {
     .all-links ul li {
         
         margin: 16px 0;
-        width: fit-content;
     }
     .all-links {
         padding-bottom: 3%;
