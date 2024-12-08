@@ -363,10 +363,11 @@ section.rows {
         line-height: 18.15px;
         color:#085AFF;
         word-wrap: break-word;
-    }
-    .all-links ul li {
         background: #47D79E;
         padding: 8px;
+    }
+    .all-links ul li {
+        
         margin: 16px 0;
         width: fit-content;
     }
